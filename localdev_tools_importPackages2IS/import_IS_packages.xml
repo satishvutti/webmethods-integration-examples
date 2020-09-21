@@ -32,13 +32,13 @@ SPDX-License-Identifier: Apache-2.0
 	
 	<property file = "build.properties"/>
 
-	<property name="repoLocation" value="C:\githere\" />
-	<property name="packages-to-import" value="package_1,package_2" />
+	<property name="repoLocation" value="C:\\localgit\\LDevDemo" />
+	<property name="packages-to-import" value="Demo_CSV_Converter,Demo_File_Converter" />
 	<property name="server-host" value="localhost" />
-	<property name="server-port" value="5555"/>
+	<property name="server-port" value="5105"/>
 	<property name="userid" value="Administrator"/>
 	<property name="password" value="manage" />
-	<property name="webMethods.home" value="C:\SoftwareAG" />
+	<property name="webMethods.home" value="C:\\SoftwareAG105" />
 	<property name="integration-server-packages" value="${webMethods.home}\IntegrationServer\instances\default\packages" />
 	<!-- for MSR >= 10.5 change this to ${webMethods.home}\IntegrationServer\packages -->
 	
